@@ -2,7 +2,7 @@ import { renderUserInfo, renderProjects } from "../services/indexdomservice.js";
 import { renderTechnologies } from "../services/domservice.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("mock/user.json")
+    fetch("mock/portfolio.json")
     .then(response => response.json())
     .then(data => {
 
