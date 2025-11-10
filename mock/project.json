@@ -2,10 +2,10 @@
     "about" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam, deserunt temporibus soluta cupiditate, repellat rerum laudantium facere eos provident. Consectetur eos aliquam vitae. Nam.",
 
     "features" : [
-        {"feat" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"},
-        {"feat" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"},
-        {"feat" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"},
-        {"feat" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"}
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"
     ],
 
     "techs" : [
@@ -18,11 +18,11 @@
     ],
 
     "techInfo": [
-        {"info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"},
-        {"info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"},
-        {"info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"},
-        {"info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"},
-        {"info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"}
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam"
     ],
 
     "userComment" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae molestias adipisci incidunt saepe numquam, deserunt temporibus soluta cupiditate, repellat rerum laudantium facere eos provident. Consectetur eos aliquam vitae. Nam."
