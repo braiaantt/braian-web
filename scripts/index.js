@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(response => response.json())
     .then(data => {
 
-        renderUserInfo(data.info);
+        renderUserInfo(data);
         renderTechnologies(data.techs);
         renderProjects(data.projects);
 
