@@ -1,10 +1,15 @@
+import { loadConfig } from "./config.js";
 import { setText, fillList, renderTechnologies } from "../services/domservice.js";
 
 const params = new URLSearchParams(window.location.search);
 const projectId = params.get("id")
 
-document.addEventListener("DOMContentLoaded", () => {
-    fetch(`http://127.0.0.1:8000/project/${projectId}`)
+document.addEventListener("DOMContentLoaded", async () => {
+
+    const config = await loadConfig();
+    const API = config.API_BASE_URL;
+
+    fetch(`${API}/project/${projectId}`)
     .then(response => response.json())
     .then(data =>{
 

@@ -1,8 +1,13 @@
+import { loadConfig } from "./config.js";
 import { renderUserInfo, renderProjects } from "../services/indexdomservice.js";
 import { renderTechnologies } from "../services/domservice.js";
 
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("http://127.0.0.1:8000/portfolio")
+document.addEventListener("DOMContentLoaded", async () => {
+
+    const config = await loadConfig();
+    const API = config.API_BASE_URL
+
+    fetch(`${API}/portfolio`)
     .then(response => response.json())
     .then(data => {
 
