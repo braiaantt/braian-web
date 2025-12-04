@@ -100,12 +100,15 @@ h2{
     text-align: center;
 }
 
-#gallery-container{
+#gallery-container {
+    min-width: 200px;
+    max-width: 600px;
+    aspect-ratio: 16/9;
     display: flex;
+    justify-content: center;
 }
 
 #image{
-    min-width: 50px;
     width: 100%;
     aspect-ratio: 16/9;
 }
@@ -125,5 +128,9 @@ h2{
 @media (max-width: 1000px){
     #main{
         display: block;
+    }
+
+    h2{
+        font-size: 1rem;
     }
 }
