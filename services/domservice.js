@@ -14,14 +14,14 @@ export function fillList(elementId, items){
 
 }
 
-export function renderTechnologies(userTechs){
+export function renderTechnologies(userTechs, baseUrl){
 
     const techContainer = document.getElementById("tech-container");
     const techTemplate = document.getElementById("tech-template");
 
     userTechs.forEach(tech => {
         const clone = techTemplate.content.cloneNode(true);
-        clone.querySelector(".tech-img").src = "http://127.0.0.1:8000" + tech.icon_src;
+        clone.querySelector(".tech-img").src = baseUrl + tech.icon_src;
         clone.querySelector(".tech-name").textContent= tech.name;
         
         techContainer.appendChild(clone);
