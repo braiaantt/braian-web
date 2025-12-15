@@ -108,6 +108,19 @@ img{
     aspect-ratio: 16/9;
 }
 
+/*------ SECTION: CONTACT ------*/
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icon{
+    width: 25px;
+    height: 25px;
+}
+
 /*------- Common Styles -------*/
 
 h1, h3, p{
