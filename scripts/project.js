@@ -63,4 +63,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     })
     .catch(error => console.log("Error al obtener los datos: ", error));
+
+    fetch("partials/header.html")
+        .then(res => res.text())
+        .then(header => {
+            document.getElementById("header-container").innerHTML = header;
+        })
 })
