@@ -25,4 +25,4 @@ Es un sitio dinámico que obtiene sus datos desde una api tambien desarrollada p
 ## 🚀Implementaciones futuras
 
 - Agregar una sección de link para facilitar acceso al repositorio en cada proyecto
-- Agregar agrupaciones, que uno o varios proyectos esten dentro de un mismo contexto o ecosistema
+- Mostrar proyectos en grupo para demostrar que viven dentro de un mismo contexto o ecosistema
